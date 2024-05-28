@@ -1,0 +1,8 @@
+submission_date,due_date,late,category,assignment_name,max_points,earned_points
+2024-01-10,2024-01-08,True,Homework,Assignment 1,100,85
+2024-01-15,2024-01-15,False,Quiz,Quiz 1,50,45
+2024-01-20,2024-01-20,False,Homework,Assignment 2,100,90
+2024-02-01,2024-02-01,False,Exam,Midterm Exam,200,180
+2024-02-10,2024-02-10,False,Homework,Assignment 3,100,95
+2024-02-15,2024-02-15,False,Quiz,Quiz 2,50,48
+2024-03-01,2024-03-01,False,Exam,Final Exam,200,190
