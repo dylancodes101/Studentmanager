@@ -14,7 +14,7 @@ def generate_fake_students(amount):
     for _ in range(int(amount)):
         student = Student(nm.get_last_name(), nm.get_first_name())
         month = rm.randint(1, 12)
-        year = rm.randint(2000, 2023)  # Initialize year before the if statement
+        year = rm.randint(2000, 2009)  # Initialize year before the if statement
         if month in [1, 3, 5, 7, 8, 10, 12]:
             day = rm.randint(1, 31)
         elif month == 2:

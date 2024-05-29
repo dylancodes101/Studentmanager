@@ -1,13 +1,17 @@
-# person.py
+#student.py
 import time
+import hashlib
+
 class Student:
     def __init__(self, last_name, first_name, age=None):
         self.last_name = last_name
         self.first_name = first_name
         self.age = age
+        self.student_id = self.generate_unique_id()
 
     def add_attribute(self, attr_name, attr_value):
         setattr(self, attr_name, attr_value)
+
     def generate_unique_id(self):
         unique_str = f"{self.first_name}{self.last_name}{self.age}{time.time()}"
         #hashed_str = hashlib.sha256(unique_str.encode()).hexdigest()
