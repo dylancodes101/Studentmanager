@@ -81,8 +81,8 @@ def main():
 
     sorted_students = sort_students_by_attr(Students)
     print("Sorted students:")
-    for student in sorted_students:
-        print(student.get_attributes())
+    """for student in sorted_students:
+        print(student.get_attributes())"""
 
 if __name__ == "__main__":
     main()
