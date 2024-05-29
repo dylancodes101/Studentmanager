@@ -13,7 +13,7 @@ class Student:
         setattr(self, attr_name, attr_value)
 
     def generate_unique_id(self):
-        unique_str = f"{self.first_name}{self.last_name}{self.age}{time.time()}"
+        unique_str = f"{self.first_name}{self.last_name}{time.time()}"
         #hashed_str = hashlib.sha256(unique_str.encode()).hexdigest()
         return unique_str
 
