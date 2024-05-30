@@ -3,12 +3,10 @@ import time
 import hashlib
 
 class Student:
-    def __init__(self, last_name, first_name, age=None):
+    def __init__(self, last_name, first_name):
         self.last_name = last_name
         self.first_name = first_name
-        self.age = age
-        self.student_id = self.generate_unique_id()
-
+        self.student_id = self.generate_unique_id()  # This line generates a unique ID
     def add_attribute(self, attr_name, attr_value):
         setattr(self, attr_name, attr_value)
 

@@ -1,11 +1,3 @@
-last_name,first_name,age,student_id,month,day,year
-Phipps,Patrick,24,PatrickPhipps1717015356.214792,3,27,2000
-Charles,Loren,16,LorenCharles1717015356.2165692,12,23,2007
-Myrick,John,20,JohnMyrick1717015356.219337,11,19,2003
-Wise,Carl,19,CarlWise1717015356.2199783,2,23,2005
-Bourgeois,Miriam,21,MiriamBourgeois1717015356.2220604,6,21,2002
-Currence,Lance,15,LanceCurrence1717015356.2380304,1,26,2009
-Smith,Gloria,18,GloriaSmith1717015356.2383187,10,16,2005
-Adams,Henry,16,HenryAdams1717015356.23857,2,13,2008
-Powley,Larry,20,LarryPowley1717015356.2536683,10,13,2003
-Amos,Robert,23,RobertAmos1717015356.254747,5,31,2000
+age,day,first_name,last_name,major,month,student_id,year
+20,29,John,Doe,Computer Science,5,JohnDoe1717036832.180094,2000
+22,15,Jane,Smith,Mathematics,6,JaneSmith1717036832.1801152,1998

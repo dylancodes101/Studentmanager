@@ -11,6 +11,16 @@ files = [
 ]
 
 [[package]]
+name = "output"
+version = "1.0.1"
+description = "print list"
+optional = false
+python-versions = "*"
+files = [
+    {file = "output-1.0.1.zip", hash = "sha256:e61317148e17902db8b9a497ef62b7784adbf6e0be0cca263c8e0041d158a4e8"},
+]
+
+[[package]]
 name = "tabulate"
 version = "0.9.0"
 description = "Pretty-print tabular data"
@@ -27,4 +37,4 @@ widechars = ["wcwidth"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "c0c5429a71a00ccaf362e0e1c88cb2cfb3fd16aff2a8004c974f5d41cc810d65"
+content-hash = "868fdef212fe7295bdb6a5551a0ec87b215adfce7e4f79b3d7cbc9dcd8d88eb8"

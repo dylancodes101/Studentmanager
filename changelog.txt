@@ -1,2 +1,0 @@
-make the student class constructor 
-use all the attributes to generate data based on 
